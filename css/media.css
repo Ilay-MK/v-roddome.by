@@ -1,0 +1,311 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1199px) {
+    nav .navbar-phone {
+        font-size: 16px;
+    }
+    .p1 .content-indent {
+        text-indent: 165px;
+    }
+    .p3 .package {
+        height: 860px;
+        padding-bottom: 0;
+    }
+    .p3 .package-premium {
+        height: 100%;
+        padding-bottom: 15px;
+    }
+    .p5 .circle-arrow .arrow_right {
+        right: 0;
+    }
+    .p5 .circle-arrow .arrow_left {
+        left: 0;
+    }
+    .rotator-caption {
+        padding-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 1111px) {
+    nav .navbar-phone {
+        display: none;
+    }
+}
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 991px) {
+    section.block {
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+    section.header header {
+        padding-bottom: 5px;
+    }
+    section.header .logo {
+        margin-top: 20px;
+    }
+    section.header .descripter {
+        margin: 0;
+        margin-top: 10px;
+    }
+    section.header .descripter h1 {
+        font-size: 22px;
+        margin: 5px auto;
+        padding: 0;
+    }
+    section.header .phones {
+        font-size: 18px;
+    }
+    nav .navbar-form > button > i {
+        font-size: 24px;
+    }
+    section.header nav {
+        position: static;
+    }
+    section.header .rotator {
+        margin-top: 0px;
+    }
+    .rotator-caption h2 {
+        font-size: 24px;
+    }
+    .rotator-caption h3 {
+        font-size: 18px;
+    }
+    .rotator-caption h4 {
+        font-size: 12px;
+    }
+    .rotator-form h3 {
+        font-size: 24px;
+    }
+    .rotator-form h4 {
+        font-size: 18px;
+    }
+    .form-control {
+        font-size: 12px;
+    }
+    .rotator-form .lead {
+        font-size: 14px;
+    }
+    .p1 .content-indent {
+        text-indent: 125px;
+    }
+    .p2 .tabs {
+        font-size: 16px;
+    }
+    .p2 .tabs h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .p2 .tabs h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .modal-p2 .modal-header .col-md-4 {
+        border-left: none;
+        border-top: 1px solid #EFFFE8;
+    }
+    .p3 .package {
+        border: 1px solid rgb(249, 249, 249);
+        height: auto;
+        padding: 20px;
+        padding-bottom: 30px;
+        margin: 20px auto;
+    }
+    .p3 .p-image img {
+        max-height: 100%;
+        max-width: 90%;
+    }
+    .p3 .package-lead {
+        /*box-shadow: -5px 0px 10px 15px rgb(240, 240, 240);*/
+        
+        height: auto;
+        position: relative;
+        top: auto;
+    }
+    .p3 .package-lead .leader {
+        position: absolute;
+        right: -15px;
+        top: -15px;
+    }
+    .p3 .package-lead .p-image img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .p3 .package-premium {
+        padding-bottom: 20px;
+        top: auto;
+    }
+    #factsClients .factsClients-message {
+        font-size: 16px;
+    }
+    .p5 .step-text {
+        font-size: 20px;
+    }
+    .ffc-t p.h1 {
+        font-size: 28px;
+    }
+    .ffc-t p.h2 {
+        font-size: 22px;
+    }
+    .ffc-t p.h1 {
+        font-size: 28px;
+    }
+    .footerFormСapture .rotator-form h4 {
+        font-size: 24px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .rotator-caption {
+        padding-top: 45px;
+    }
+}
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 767px) {
+    .arrow_left,
+    .arrow_right,
+    #f-arrow {
+        display: none;
+    }
+    header .number {
+        font-size: 70px;
+    }
+    header .text {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .p1 .content-indent {
+        font-size: 14px;
+        text-indent: 85px;
+    }
+    .p1 .content-indent .lead {
+        font-size: 22px;
+    }
+    section.header .rotator .bl-f-c {
+        height: 300px;
+        position: relative;
+        bottom: 240px;
+        /*margin-bottom: -280px;*/
+    }
+    section.header .rotator .rotator-form {
+          margin-bottom: -210px;
+    }
+    .p5 .step-text {
+     height: auto;
+    }
+    #factsClients .carousel-inner>.item>img {
+        height: 100%;
+    }
+    #factsClients .factsClients-imgs img {
+        max-height: 130px;
+    }
+    section.header .logo img {
+        margin: 0 auto;
+    }
+}
+
+
+/*CUSTOm*/
+@media only screen and (max-width: 579px) {
+    .rotator-caption h2 {
+        font-size: 20px;
+    }
+    .rotator-caption h3 {
+        font-size: 14px;
+    }
+    .rotator-caption h4 {
+        font-size: 10px;
+    }
+    .rotator-form h3 {
+        font-size: 20px;
+    }
+    .rotator-form h4 {
+        font-size: 14px;
+    }
+    .form-control {
+        font-size: 10px;
+    }
+    section.header .rotator .bl-f-c {
+        height: auto;
+        position: static;
+        bottom: auto;
+        margin-bottom: auto;
+    }
+    
+    section.header .rotator .rotator-form {
+          margin-bottom: auto;
+    }
+    .rotator-caption {
+        margin: 0;
+        padding: 0;
+    }
+    #factsClients .factsClients-imgs img {
+        max-height: 130px;
+    }
+}
+/*CUSTOm*/
+@media only screen and (max-width: 419px) {
+    #factsClients .factsClients-imgs img {
+        max-height: 100px;
+    }
+}
+/*
+@media only screen and (max-width: 419px) {
+    section.header .rotator .bl-f-c {
+        height: auto;
+        position: static;
+        bottom: auto;
+        margin-bottom: auto;
+    }
+    
+    section.header .rotator .rotator-form {
+          margin-bottom: auto;
+    }
+    .rotator-caption {
+        margin: 0;
+        padding: 0;
+    }
+}
+*/
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 479px) {}
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 319px) {
+    .navbar-brand {
+        font-size: 14px;
+    }
+    header .number {
+        font-size: 60px;
+    }
+    header .text {
+      font-size: 20px;
+      margin-top: 16px;
+    }
+    .p4 .formСapture .p4fc-form .btn {
+        font-size: 12px;
+    }
+    .p1 .content-indent {
+        text-indent: 0px;
+    }
+}
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
